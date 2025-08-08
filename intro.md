@@ -81,6 +81,12 @@ def git_push_button_clicked(b):
         now = datetime.now(timezone)
     timestamp = now.strftime("%Y-%m-%d %H:%M:%S")
     commit_message=f"Submission at {timestamp}"
+    try: 
+        subprocess.run(['python','-m','nbconvert','--to','markdown','intro.ipynb'],check=True, capture_output=True, text=True)
+        print('saved markdown')
+    except subprocess.CalledProcessError as e:
+        print('An error occurred while saving as markdown')
+        print(e.stderr)
     try:
         # Add all changes
         subprocess.run(['git', 'add', '.'], check=True, capture_output=True, text=True)
