@@ -9,3 +9,4 @@ nbconvert
 ipywidgets
 pytamaro
 ipycanvas
+ipykernel
