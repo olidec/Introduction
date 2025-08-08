@@ -52,12 +52,12 @@ for i in range(4):
 
 
 ```python
-from pytamaro import rectangle, red, show_graphic
+from pytamaro import rectangle, green, show_graphic
 
 height = 300
 
 # create a white rectangle with the given height and a width 3/2 times larger
-background = rectangle(3/2*height, height, red)
+background = rectangle(3/2*height, height, green)
 
 show_graphic(background)  # this shows your background
 ```
