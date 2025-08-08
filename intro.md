@@ -1,8 +1,3 @@
-# Introduction
-
-Welcome to 
-
-
 ```python
 # Import necessary libraries
 import ipywidgets as widgets
@@ -12,19 +7,70 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 ```
 
-## First Steps in Coding
 
-For reasons no one really understands, the first code one writes in a new programming language the first code you write is usually 'Hello World'. In Python the code for that is `print('Hello World')`. This outputs the text 'Hello World' to the standard output.
+
+
+
+<style>
+body {
+    counter-reset: exercise-counter;
+}
+h3.exercise:before {
+    counter-increment: exercise-counter;
+    content: "Exercise " counter(exercise-counter) ". ";
+}
+</style>
+
+
+
+
+# Introduction to Programming with Python
+
+Welcome to Computer Science! 🚀 In this first chapter, we'll dive into the basics of programming using **Python**, a powerful and popular language known for its simple, readable syntax. We'll also use a special graphics library called **`pytamaro`** to create interesting visuals right from the start.
+
+### Why These Tools?
+
+* **Python:** It's a fantastic language for beginners because its syntax is close to English, letting you focus on programming concepts rather than complex rules. It's also used by professionals at places like Google, NASA, and Spotify.
+* **`pytamaro`:** Learning to code is more fun when you can see your results. This library makes it easy to draw shapes, create images, and learn core programming ideas in a visual way.
+* **Jupyter Notebooks:** This interactive environment, which you're looking at right now, lets us mix live code, explanatory text, and images all in one place. It’s the perfect digital workbook for learning and experimenting.
+
+---
+
+## Your First Steps in the Notebook
+
+This document is a **Jupyter Notebook**, and it's made up of individual blocks called **cells**. A cell can contain either text (like this one) or code.
+
+**Working with Code Cells**
+To run a code cell, you can either click the "play" button (▶️) that appears to its left or select the cell and press `Ctrl+Enter`. This executes the Python code inside and shows the output directly below. You can click on any code cell to edit its contents.
+
+**Working with Text Cells**
+The text you're reading is in a **Markdown cell**. Markdown is a simple way to format text using plain characters. To see the "raw" text, just double-click on a text cell. To render it again, press `Ctrl+Enter`.
+
+Here are a few basic Markdown commands:
+* `# Title` creates a main heading, `## Subtitle` creates a smaller one.
+* `*text*` makes text *italic*.
+* `**text**` makes text **bold**.
+* `` `code` `` formats text as `inline code`.
+
+---
+
+## Goals for this Chapter
+
+By the end of this chapter, you will be able to:
+* Understand the roles of Python, `pytamaro`, and Jupyter Notebooks.
+* Confidently navigate and interact with notebook cells.
+* Write and execute basic Python commands to create simple graphics.
+
+Let's get started!
+
+## First Steps with PyTamaro
+
+
 
 
 ```python
-print("Hello World")
+
 ```
-
-    Hello World
-
-
-This is some new text
 
 
 ```python
@@ -64,7 +110,7 @@ show_graphic(background)  # this shows your background
 
 
     
-![png](intro_files/intro_7_0.png)
+![png](intro_files/intro_6_0.png)
     
 
 
