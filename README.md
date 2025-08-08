@@ -27,9 +27,9 @@ Assignments are given as Jupyter Notebooks, where you can enter code into cells 
 4. Open the Assigment Notebook
    - Click on the jupyter notebook (a file ending in `.ipynb`)
    - The first time you open a new notebook, you will have to manually select the correct kernel:
-      -- Click on the button labelled `Select Kernel` 
-      -- In the drop-down menu select `Python Environments...`
-      -- Select the environment with the path `/usr/local/bin/python` (This one should also have a star and have the additional label `Recommended`) 
+      - Click on the button labelled `Select Kernel` 
+      - In the drop-down menu select `Python Environments...`
+      - Select the environment with the path `/usr/local/bin/python` (This one should also have a star and have the additional label `Recommended`) 
 
 ## Opening the Development Environment
    - If you are editing the folder directly, you can reload the window using the command: `Ctrl-Alt-P` and then selecting `Developer: Reload Window` (you can filter commands by typing the first few letters).
