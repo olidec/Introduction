@@ -19,9 +19,15 @@ Assignments are given as Jupyter Notebooks, where you can enter code into cells 
      - **Python**
      - **Jupyter**
 
+3. Accept your Assignment
+   - Click on the link on OneNote
+   - Select your name from list
+   - Click on the link to your newly generated repository
+   - Highlight the URL and copy the address to your repository
+
 3. Clone your GitHub Classroom repository:
    - On the starting page of Visual Studio Code select `Open Github Repository...`
-   - Paste the link to your classroom assignment.
+   - Paste the link to your classroom repository.
    - When opening VSCode will ask whether to `Reopen in Container`. Click the blue button to open the coding environment.
 
 4. Open the Assigment Notebook
