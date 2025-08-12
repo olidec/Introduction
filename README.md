@@ -23,6 +23,7 @@ Assignments are given as Jupyter Notebooks, where you can enter code into cells 
    - Click on the link on OneNote
    - Select your name from list
    - Click on the link to your newly generated repository
+   - Select an appropriate location
    - Highlight the URL and copy the address to your repository
 
 3. Clone your GitHub Classroom repository:
